@@ -88,7 +88,7 @@
         "form_name": "seizure_diary",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Hatten Sie motorische symptome?",
+        "field_label": "Hatten Sie motorische Symptome?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -122,7 +122,7 @@
         "form_name": "seizure_diary",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Hatten Sie nicht-motorische symptome?",
+        "field_label": "Hatten Sie nicht-motorische Symptome?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
