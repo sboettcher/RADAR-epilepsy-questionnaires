@@ -40,21 +40,6 @@
       },
       "estimatedCompletionTime": 5,
       "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            19
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
       }
     }
   ]
