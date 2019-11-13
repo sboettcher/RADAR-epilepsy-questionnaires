@@ -1,6 +1,6 @@
 {
-  "version": "0.0.1",
-  "schemaVersion": "0.0.2",
+  "version": "0.1.0",
+  "schemaVersion": "0.1.0",
   "name": "RADAR EPI UKLFR DIARY TEST",
   "healthIssues": [
     "epilepsy"
@@ -39,6 +39,58 @@
         "es": ""
       },
       "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            19
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+
+    {
+      "name": "Evening Questionnaire",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/sboettcher/RADAR-epilepsy-questionnaires/master/questionnaires/",
+        "name": "evening_questionnaire",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 10,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
