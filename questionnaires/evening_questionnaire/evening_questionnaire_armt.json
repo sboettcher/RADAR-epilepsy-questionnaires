@@ -1,6 +1,6 @@
 [
     {
-        "field_name": "medications",
+        "field_name": "deq_medications",
         "form_name": "evening_questionnaire",
         "section_header": "Medication Compliance",
         "field_type": "radio",
@@ -34,7 +34,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "alcoholuse",
+        "field_name": "deq_alcoholuse",
         "form_name": "evening_questionnaire",
         "section_header": "Alcohol Use",
         "field_type": "radio",
@@ -92,7 +92,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "mestrual",
+        "field_name": "deq_mestrual",
         "form_name": "evening_questionnaire",
         "section_header": "Menstrual Cycle",
         "field_type": "radio",
@@ -100,15 +100,15 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "no "
+                "label": "Yes "
             },
             {
                 "code": "2",
-                "label": "yes "
+                "label": "No "
             },
             {
                 "code": "3",
-                "label": "not applicable"
+                "label": "Not applicable"
             }
         ],
         "field_note": "",
@@ -126,7 +126,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "stress",
+        "field_name": "deq_stress",
         "form_name": "evening_questionnaire",
         "section_header": "Stress Level",
         "field_type": "radio",
@@ -188,7 +188,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "anxiety",
+        "field_name": "deq_anxiety",
         "form_name": "evening_questionnaire",
         "section_header": "Anxiety Level",
         "field_type": "radio",
@@ -250,7 +250,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "happy",
+        "field_name": "deq_happy",
         "form_name": "evening_questionnaire",
         "section_header": "Emotional State",
         "field_type": "radio",
@@ -312,7 +312,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "sad",
+        "field_name": "deq_sad",
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
@@ -374,7 +374,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "relaxed",
+        "field_name": "deq_relaxed",
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
@@ -436,7 +436,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "nervous",
+        "field_name": "deq_nervous",
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
@@ -498,7 +498,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "lively",
+        "field_name": "deq_lively",
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
@@ -560,7 +560,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "bored",
+        "field_name": "deq_bored",
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
@@ -622,7 +622,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "precipitan",
+        "field_name": "deq_precipitant",
         "form_name": "evening_questionnaire",
         "section_header": "Seizure precipitants",
         "field_type": "checkbox",
@@ -660,7 +660,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "other",
+        "field_name": "deq_other",
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "text",
@@ -681,7 +681,7 @@
         "evaluated_logic": "responses['precipitan'] == '4'"
     },
     {
-        "field_name": "seizure",
+        "field_name": "deq_seizure",
         "form_name": "evening_questionnaire",
         "section_header": "Seizure Diary",
         "field_type": "yesno",
