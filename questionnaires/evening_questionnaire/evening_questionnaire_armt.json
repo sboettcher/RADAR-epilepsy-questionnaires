@@ -671,14 +671,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[precipitan] = '4'",
+        "branching_logic": "[deq_precipitant] = '4'",
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['precipitan'] == '4'"
+        "evaluated_logic": "responses['deq_precipitant'] == '4'"
     },
     {
         "field_name": "deq_seizure",
