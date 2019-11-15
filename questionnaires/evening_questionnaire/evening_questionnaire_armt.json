@@ -4,15 +4,15 @@
         "form_name": "evening_questionnaire",
         "section_header": "Medication Compliance",
         "field_type": "radio",
-        "field_label": "Did you take your medications in the last 24 hours ?",
+        "field_label": "Did you take your medications in the last 24 hours?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Took all doses "
+                "label": "Took all doses"
             },
             {
                 "code": "1",
-                "label": "Missed at least one dose "
+                "label": "Missed at least one dose"
             },
             {
                 "code": "2",
@@ -42,11 +42,11 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "None "
+                "label": "None"
             },
             {
                 "code": "2",
-                "label": "Single small shot of spirits  (25ml, ABV 40%) 1 unit"
+                "label": "Single small shot of spirits (25ml, ABV 40%) 1 unit"
             },
             {
                 "code": "3",
@@ -96,15 +96,15 @@
         "form_name": "evening_questionnaire",
         "section_header": "Menstrual Cycle",
         "field_type": "radio",
-        "field_label": "Have you got your menstrual period in the last 24 hours?",
+        "field_label": "Have you had your menstrual period in the last 24 hours?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Yes "
+                "label": "Yes"
             },
             {
                 "code": "2",
-                "label": "No "
+                "label": "No"
             },
             {
                 "code": "3",
@@ -134,39 +134,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not stressed at all "
+                "label": "1 not stressed at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -196,39 +196,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not anxious at all "
+                "label": "1 not anxious at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -258,39 +258,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not happy at all "
+                "label": "1 not happy at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -320,39 +320,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not sad at all "
+                "label": "1 not sad at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -382,39 +382,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not relaxed at all "
+                "label": "1 not relaxed at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -444,39 +444,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not nervous at all "
+                "label": "1 not nervous at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -506,39 +506,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not lively at all "
+                "label": "1 not lively at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -568,39 +568,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not bored at all "
+                "label": "1 not bored at all"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
@@ -630,15 +630,15 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "headache "
+                "label": "headache"
             },
             {
                 "code": "2",
-                "label": "concentration difficulty "
+                "label": "concentration difficulty"
             },
             {
                 "code": "3",
-                "label": "difficulty with thoughts "
+                "label": "difficulty with thoughts"
             },
             {
                 "code": "4",
@@ -664,7 +664,7 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If any other feeling, please specify",
+        "field_label": "If any other feeling, please specify:",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",

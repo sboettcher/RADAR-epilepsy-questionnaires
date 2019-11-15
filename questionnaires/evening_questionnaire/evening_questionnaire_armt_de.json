@@ -2,21 +2,21 @@
     {
         "field_name": "deq_medications",
         "form_name": "evening_questionnaire",
-        "section_header": "Medication Compliance",
+        "section_header": "Medikamente",
         "field_type": "radio",
-        "field_label": "Did you take your medications in the last 24 hours ?",
+        "field_label": "Haben Sie Ihre Medikamente in den letzten 24 Stunden eingenommen?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Took all doses "
+                "label": "Alle Dosen genommen"
             },
             {
                 "code": "1",
-                "label": "Missed at least one dose "
+                "label": "Mindestens eine Dosis verpasst"
             },
             {
                 "code": "2",
-                "label": "Missed all doses"
+                "label": "Alle Dosen verpasst"
             }
         ],
         "field_note": "",
@@ -36,45 +36,45 @@
     {
         "field_name": "deq_alcoholuse",
         "form_name": "evening_questionnaire",
-        "section_header": "Alcohol Use",
+        "section_header": "Alkoholkonsum",
         "field_type": "radio",
-        "field_label": "How much alcohol have you consumed in the last 24 hours?",
+        "field_label": "Wie viel Alkohol haben Sie in den letzten 24 Stunden zu sich genommen?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "None "
+                "label": "Keinen"
             },
             {
                 "code": "2",
-                "label": "Single small shot of spirits  (25ml, ABV 40%) 1 unit"
+                "label": "Kleiner Schuss Spirituosen (25ml, 40% Vol.)"
             },
             {
                 "code": "3",
-                "label": "Small glass of wine (125ml, ABV 12%) 1.5 units"
+                "label": "Kleines Glas Wein (125ml, 12% Vol.)"
             },
             {
                 "code": "4",
-                "label": "Bottle of lager/beer/cider (330ml, ABV 5%) 1.7 units"
+                "label": "Flasche Bier (330ml, 5% Vol.)"
             },
             {
                 "code": "5",
-                "label": "Can of lager/beer/cider (440ml, ABV 5.5%) 2 units"
+                "label": "Dose Bier (440ml, 5.5% Vol.)"
             },
             {
                 "code": "6",
-                "label": "Pint of lower-strength lager/beer/cider (ABV 3.6%) 2 units"
+                "label": "Großes Glas Bier (500ml, 3.6% Vol.)"
             },
             {
                 "code": "7",
-                "label": "Standard glass of wine (175ml, ABV 12%) 2.1 units"
+                "label": "Normales Glas Wein (175ml, 12% Vol.)"
             },
             {
                 "code": "8",
-                "label": "Pint of higher-strength lager/beer/cider (ABV 5.2%) 3 units"
+                "label": "Großes Glas Bier, stark (500ml, 5.2% Vol.)"
             },
             {
                 "code": "9",
-                "label": "Large glass of wine (250ml, ABV 12%) 3 units"
+                "label": "Großes Glas Wein (250ml, 12% Vol.)"
             }
         ],
         "field_note": "",
@@ -94,21 +94,21 @@
     {
         "field_name": "deq_mestrual",
         "form_name": "evening_questionnaire",
-        "section_header": "Menstrual Cycle",
+        "section_header": "Menstruationszyklus",
         "field_type": "radio",
-        "field_label": "Have you got your menstrual period in the last 24 hours?",
+        "field_label": "Hatten Sie Ihre Regel in den letzten 24 Stunden?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Yes "
+                "label": "Ja"
             },
             {
                 "code": "2",
-                "label": "No "
+                "label": "Nein"
             },
             {
                 "code": "3",
-                "label": "Not applicable"
+                "label": "Nicht zutreffend"
             }
         ],
         "field_note": "",
@@ -128,49 +128,49 @@
     {
         "field_name": "deq_stress",
         "form_name": "evening_questionnaire",
-        "section_header": "Stress Level",
+        "section_header": "Stresslevel",
         "field_type": "radio",
-        "field_label": "How much stress did you feel in the last 24 hours?",
+        "field_label": "Wie viel Stress hatten Sie in den letzten 24 Stunden?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not stressed at all "
+                "label": "1 überhaupt nicht gestresst"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very stressed"
+                "label": "10 sehr gestresst"
             }
         ],
         "field_note": "",
@@ -190,49 +190,49 @@
     {
         "field_name": "deq_anxiety",
         "form_name": "evening_questionnaire",
-        "section_header": "Anxiety Level",
+        "section_header": "Angstniveau",
         "field_type": "radio",
-        "field_label": "How much anxiety did you feel in the last 24 hours?",
+        "field_label": "Wie sehr beunruhigt waren Sie in den letzten 24 Stunden?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not anxious at all "
+                "label": "1 überhaupt nicht beunruhigt"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very anxious"
+                "label": "10 sehr beunruhigt"
             }
         ],
         "field_note": "",
@@ -252,49 +252,49 @@
     {
         "field_name": "deq_happy",
         "form_name": "evening_questionnaire",
-        "section_header": "Emotional State",
+        "section_header": "Emotionaler Zustand",
         "field_type": "radio",
-        "field_label": "How happy have you felt in the last 24 hours?",
+        "field_label": "Wie glücklich haben Sie sich in den letzten 24 Stunden gefühlt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not happy at all "
+                "label": "1 überhaupt nicht glücklich"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very happy"
+                "label": "10 sehr glücklich"
             }
         ],
         "field_note": "",
@@ -316,47 +316,47 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How sad have you felt in the last 24 hours?",
+        "field_label": "Wie traurig haben Sie sich in den letzten 24 Stunden gefühlt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not sad at all "
+                "label": "1 überhaupt nicht traurig"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very sad"
+                "label": "10 sehr traurig"
             }
         ],
         "field_note": "",
@@ -378,47 +378,47 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How relaxed have you felt in the last 24 hours?",
+        "field_label": "Wie entspannt haben Sie sich in den letzten 24 Stunden gefühlt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not relaxed at all "
+                "label": "1 überhaupt nicht entspannt"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very relaxed"
+                "label": "10 sehr entspannt"
             }
         ],
         "field_note": "",
@@ -440,47 +440,47 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How nervous have you felt in the last 24 hours?",
+        "field_label": "Wie nervös haben Sie sich in den letzten 24 Stunden gefühlt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not nervous at all "
+                "label": "1 überhaupt nicht nervös"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very nervous"
+                "label": "10 sehr nervös"
             }
         ],
         "field_note": "",
@@ -502,47 +502,47 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How lively have you felt in the last 24 hours?",
+        "field_label": "Wie lebhaft haben Sie sich in den letzten 24 Stunden gefühlt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not lively at all "
+                "label": "1 überhaupt nicht lebhaft"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very lively"
+                "label": "10 sehr lebhaft"
             }
         ],
         "field_note": "",
@@ -564,47 +564,47 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How bored have you felt in the last 24 hours?",
+        "field_label": "Wie gelangweilt haben Sie sich in den letzten 24 Stunden gefühlt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 not bored at all "
+                "label": "1 überhaupt nicht gelangweilt"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7 "
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": "8 "
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": "9 "
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "10 very bored"
+                "label": "10 sehr gelangweilt"
             }
         ],
         "field_note": "",
@@ -624,25 +624,25 @@
     {
         "field_name": "deq_precipitant",
         "form_name": "evening_questionnaire",
-        "section_header": "Seizure precipitants",
+        "section_header": "Anfall-Andeutung",
         "field_type": "checkbox",
-        "field_label": "Have you been experiencing any special feeling in the last 24 hours?",
+        "field_label": "Haben Sie in den letzten 24 Stunden ein besonderes Gefühl oder Empfinden gehabt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "headache "
+                "label": "Kopfschmerzen"
             },
             {
                 "code": "2",
-                "label": "concentration difficulty "
+                "label": "Konzentrationsschwierigkeiten"
             },
             {
                 "code": "3",
-                "label": "difficulty with thoughts "
+                "label": "Denkschwierigkeiten"
             },
             {
                 "code": "4",
-                "label": "any other feeling"
+                "label": "etwas anderes"
             }
         ],
         "field_note": "",
@@ -664,7 +664,7 @@
         "form_name": "evening_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If any other feeling, please specify",
+        "field_label": "Wenn Sie ein anderes Gefühl oder Empfinden hatten, geben Sie es bitte an:",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -683,9 +683,9 @@
     {
         "field_name": "deq_seizure",
         "form_name": "evening_questionnaire",
-        "section_header": "Seizure Diary",
+        "section_header": "Anfalltagebuch",
         "field_type": "yesno",
-        "field_label": "Did you have any seizure during the last 24 hours?",
+        "field_label": "Hatten Sie in den letzten 24 Stunden einen Anfall?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
