@@ -1,6 +1,6 @@
 {
-  "version": "0.1.1",
-  "schemaVersion": "0.1.0",
+  "version": "0.1.2",
+  "schemaVersion": "0.0.2",
   "name": "RADAR EPI UKLFR DIARY TEST",
   "healthIssues": [
     "epilepsy"
@@ -11,7 +11,7 @@
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/sboettcher/RADAR-epilepsy-questionnaires/master/questionnaires/",
-        "name": "seizure_diary",
+        "name": "epi_seizure_diary",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -63,7 +63,7 @@
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/sboettcher/RADAR-epilepsy-questionnaires/master/questionnaires/",
-        "name": "evening_questionnaire",
+        "name": "epi_evening_questionnaire",
         "avsc": "questionnaire"
       },
       "startText": {
