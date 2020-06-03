@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.2.0",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI UKLFR DIARY TEST",
   "healthIssues": [
@@ -9,6 +9,9 @@
     {
       "name": "Seizure Diary",
       "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/sboettcher/RADAR-epilepsy-questionnaires/master/questionnaires/",
         "name": "epi_seizure_diary",
@@ -46,9 +49,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [
-            19
-          ]
+          "unitsFromZero": [19]
         },
         "reminders": {
           "unit": "day",
@@ -61,6 +62,9 @@
     {
       "name": "Evening Questionnaire",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/sboettcher/RADAR-epilepsy-questionnaires/master/questionnaires/",
         "name": "epi_evening_questionnaire",
@@ -98,16 +102,190 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [
-            19
-          ]
+          "unitsFromZero": [19]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        }
+      }
+    },
+
+    {
+      "name": "TAM",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "tam",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 4
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [660]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        }
+      }
+    },
+
+    {
+      "name": "PHQ8",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 4,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "phq8",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 14
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+
+    {
+      "name": "THINC-IT",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 5,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "thinc_it",
+        "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 15,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 6
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [600]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
         }
       }
     }
+
   ]
 }
