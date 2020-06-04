@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI UKLFR DIARY TEST",
   "healthIssues": [
@@ -60,7 +60,7 @@
     },
 
     {
-      "name": "Evening Questionnaire",
+      "name": "Daily Evening Questionnaire",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
@@ -168,7 +168,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 7
         }
       }
     },
@@ -283,6 +283,234 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        }
+      }
+    },
+
+    {
+      "name": "RSES",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 6,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "rses",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 12
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+
+    {
+      "name": "GAD7",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 7,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "gad7",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 12
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+
+    {
+      "name": "WSAS",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 8,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "wsas",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 12
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+
+    {
+      "name": "BIPQ",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 9,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "bipq",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 12
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     }
