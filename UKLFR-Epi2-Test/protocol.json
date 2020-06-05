@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI UKLFR DIARY TEST",
   "healthIssues": [
@@ -112,63 +112,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        }
-      }
-    },
-
-    {
-      "name": "TAM",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 3,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "tam",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 5,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "week",
-          "amount": 4
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [660]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 7
         }
       }
     },
