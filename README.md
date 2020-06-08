@@ -8,8 +8,8 @@
 | time of day           | 19:00 | 9:30 | 9:30 | 9:30 | 9:30 | 9:30 | multi | 10:00 | 10:30 |
 | reminders             | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | |
 | completion window     | 1d | 3d | 3d | 3d | 3d | 3d | 15min | 1d | 3d |
-| est. completion (min) | 10 | 3 | 3 | 3 | 3 | 3 | 3 | 15? | 10 |
-| in protocol           | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  | (✔) |  |
+| est. completion (min) | 10 | 3 | 3 | 3 | 3 | 3 | 3 | 15 | 10 |
+| in protocol           | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 
 
 ## Telephone/F2F Questionnaires
