@@ -225,7 +225,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         }
       }
     },
