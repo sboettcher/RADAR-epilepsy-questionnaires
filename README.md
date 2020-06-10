@@ -5,7 +5,7 @@
 |                       | DEQ | PHQ8 | RSES | GAD7 | WSAS | BIPQ | ESM | Cognition | Speech |
 |-----------------------|:---:|:----:|:----:|:----:|:----:|:----:|:---:|:---------:|:------:|
 | repeat protocol       | 1d | 2w | 12w | 12w | 12w | 12w | 6w | 6w | 2w |
-| time of day           | 19:00 | 9:30 | 9:30 | 9:30 | 9:30 | 9:30 | multi | 10:00 | 10:30 |
+| time of day           | 19:00 | 9:30 | 9:30 | 9:30 | 9:30 | 9:30 | multi | 10:00 | 11:30 |
 | reminders             | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | |
 | completion window     | 1d | 3d | 3d | 3d | 3d | 3d | 15min | 3d | 3d |
 | est. completion (min) | 10 | 3 | 3 | 3 | 3 | 3 | 3 | 15 | 10 |
