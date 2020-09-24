@@ -1,7 +1,7 @@
 {
   "version": "0.2.5",
   "schemaVersion": "0.0.2",
-  "name": "RADAR EPI2 UKLFR TEST",
+  "name": "RADAR EPI2 KCL",
   "healthIssues": [
     "epilepsy"
   ],
