@@ -1,5 +1,5 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.6",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI2 UKLFR TEST",
   "healthIssues": [
@@ -94,7 +94,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 10,
+      "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -490,7 +490,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
           "unit": "week",

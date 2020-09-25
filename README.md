@@ -8,7 +8,7 @@
 | time of day           | 19:00 | 9:30 | 9:30 | 9:30 | 9:30 | 9:30 | multi | 10:00 | 11:30 |
 | reminders             | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | |
 | completion window     | 1d | 3d | 3d | 3d | 3d | 3d | 15min | 3d | 3d |
-| est. completion (min) | 10 | 3 | 3 | 3 | 3 | 3 | 3 | 15 | 10 |
+| est. completion (min) | 5 | 3 | 3 | 3 | 3 | 3 | 5 | 15 | 3 |
 | in protocol           | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 
 
