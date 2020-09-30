@@ -5,12 +5,13 @@
 |                       | DEQ | PHQ8 | RSES | GAD7 | WSAS | BIPQ | ESM | Cognition | Speech |
 |-----------------------|:---:|:----:|:----:|:----:|:----:|:----:|:---:|:---------:|:------:|
 | repeat protocol       | 1d | 2w | 12w | 12w | 12w | 12w | 6w | 6w | 2w |
-| time of day           | 19:00 | 9:30 | 9:30 | 9:30 | 9:30 | 9:30 | multi | 10:00 | 11:30 |
-| reminders             | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | |
-| completion window     | 1d | 3d | 3d | 3d | 3d | 3d | 15min | 3d | 3d |
+| time of day           | 19:00 | 9:30 | 9:30 | 9:30 | 9:30 | 9:30 | multi | 10:00 | 10:30 |
+| reminders             | 1 | 3 | 3 | 3 | 3 | 3 | 0 | 3 | 3 |
+| completion window     | 5h | 3d | 3d | 3d | 3d | 3d | 15min | 3d | 3d |
 | est. completion (min) | 5 | 3 | 3 | 3 | 3 | 3 | 5 | 15 | 3 |
 | in protocol           | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 
+There is also a demo version of the daily evening questionnaire (DEQ) that is activated at 9:00, has a completion window of 12h, and a repeat protocol of 5 years.
 
 ## Telephone/F2F Questionnaires
 - TAM
