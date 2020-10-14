@@ -21,7 +21,7 @@ There is also a demo version of the daily evening questionnaire (DEQ) that is ac
 - ~~MMAS-8~~
 
 ## Full Study Chart
-![Full Study Chart](study2-chart.png "Full Study Chart")
+![Full Study Chart](doc/study2-chart.png "Full Study Chart")
 
 ## Notes
 [Protocol & Schedule Doc](https://radar-base.atlassian.net/wiki/spaces/RAD/pages/463241217/Protocol+Schedule)
