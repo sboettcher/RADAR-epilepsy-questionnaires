@@ -1,5 +1,5 @@
 {
-  "version": "0.2.7",
+  "version": "0.2.8",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI2 UKLFR TEST",
   "healthIssues": [
@@ -106,8 +106,8 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 5,
-          "repeat": 1
+          "amount": 1,
+          "repeat": 5
         },
         "completionWindow": {
           "unit": "hour",
