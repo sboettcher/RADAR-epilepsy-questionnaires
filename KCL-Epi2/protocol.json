@@ -1,5 +1,5 @@
 {
-  "version": "0.2.7",
+  "version": "0.2.9",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI2 KCL",
   "healthIssues": [
@@ -106,8 +106,8 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 5,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "hour",
@@ -219,8 +219,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -276,8 +276,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -333,8 +333,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -390,8 +390,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -447,8 +447,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -504,8 +504,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -670,8 +670,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -726,8 +726,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -782,8 +782,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 3,
-          "repeat": 3
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
