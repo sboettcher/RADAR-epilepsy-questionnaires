@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "schemaVersion": "0.0.2",
   "name": "RADAR EPI2 KCL TEST",
   "healthIssues": [
@@ -111,7 +111,7 @@
         },
         "completionWindow": {
           "unit": "hour",
-          "amount": 5
+          "amount": 17
         }
       }
     },
